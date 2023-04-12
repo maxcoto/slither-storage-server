@@ -2,31 +2,43 @@ const constants = {
     networks: {
       mainnet: {
         suffix: "",
-        subdomain: "mainnet",
+        subdomain: "mainnet"
       },
       goerli: {
         suffix: "goerli:",
-        subdomain: "goerli",
+        subdomain: "goerli"
       },
       sepolia: {
         suffix: "sepolia:",
-        subdomain: "sepolia",
+        subdomain: "sepolia"
       },
       polygon: {
-        suffix: "polygon:",
-        subdomain: "polygon-mainnet",
+        suffix: "poly:",
+        subdomain: "polygon-mainnet"
       },
-      polygon_goerli: {
-        suffix: "polygon-goerli:",
-        subdomain: "polygon-goerli",
+      polygon_testnet: {
+        suffix: "mumbai:",
+        subdomain: "polygon-mumbai"
       },
       arbitrum: {
-        suffix: "arb:",
-        subdomain: "arbitrum-mainnet",
+        suffix: "arbi:",
+        subdomain: "arbitrum-mainnet"
       },
-      arbitrum_goerli: {
-        suffix: "arb-goerli:",
-        subdomain: "arbitrum-goerli",
+      arbitrum_testnet: {
+        suffix: "testnet.arbi:",
+        subdomain: "arbitrum-goerli"
+      },
+      avalanche: {
+        suffix: "avax:",
+        subdomain: "avalanche-mainnet"
+      },
+      avalanche_testnet: {
+        suffix: "testnet.avax:",
+        subdomain: "avalanche-fuji"
+      },
+      optimism: {
+        suffix: "optim:",
+        subdomain: "optimism-mainnet"
       },
     }
   };
@@ -34,4 +46,3 @@ const constants = {
   module.exports = {
     ...constants
   };
-  
