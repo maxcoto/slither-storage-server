@@ -4,6 +4,10 @@ const constants = {
         suffix: "",
         subdomain: "mainnet"
       },
+      base: {
+        suffix: "base:",
+        subdomain: "base-mainnet"
+      },
       goerli: {
         suffix: "goerli:",
         subdomain: "goerli"
